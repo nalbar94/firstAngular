@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  /* margin:0;
+  padding: 0; */
+}
+
+  .textv {
+    text-align: center;
+    position: relative;
+    top:280px;
+    color: white;
+    font-family:'Montez-Regular';
+    font-size:60px; 
+  }
+  .textv {
+    text-align: center;
+    position: relative;
+    top:280px;
+    color: white;
+    font-family:'Montez-Regular';
+    font-size:60px; 
+  }
+  .img {
+    text-align: center;
+    top:280px;
+    position: relative; 
+    padding-left: 500px;     
+
+  }
+  .textE{
+    text-align: center;
+    position: relative;
+    top:280px;
+    color: white;
+    font-family:'AltRenRetro';
+    font-size:60px;
+}
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .textv {
+        text-align: center;
+        position: relative;
+        top:280px;
+        color: white;
+        font-family:'Montez-Regular';
+        font-size:60px; 
+      }
+      .img {
+        text-align: center;
+        top:280px;
+        position: relative;
+        width: 100%;  
+      }
+      .textE{
+        text-align: center;
+        position: relative;
+        top:280px;
+        color: white;
+        font-family:'AltRenRetro';
+        font-size:21px; 
+        white-space: nowrap;
+      }
+  }

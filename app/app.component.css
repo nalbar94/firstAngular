@@ -1,0 +1,177 @@
+  
+* {
+  box-sizing: border-box;
+  /* margin:0;
+  padding: 0; */
+}
+li, a {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-family: 'AltRenRetro';
+}
+.header{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px 5%;
+}
+.logo {
+  cursor: pointer;
+  /* margin-right: auto; */
+  height: 50px;
+  top:40px;
+  padding-left: 340px;
+  position: relative;
+}
+/* .nav__links {
+  list-style: none;
+} */
+
+ul {
+  list-style-type: none;
+  margin-right: 100px;
+  /* padding-left: 100px; */
+  overflow: hidden;
+  position: relative;
+
+}
+
+li {
+  float: right;
+  /* padding-right: 7/0px; */
+  padding:5px;
+  /* margin-left: 50px; */
+}
+
+li a {
+  display: block;
+  padding: -50px;
+  /* background-color: #dddddd; */
+}
+.nav li {
+  float: left;
+}
+
+.div1 {
+  top: 80px;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family:'AltRenRetro';
+  font-size:xx-large;
+}
+.img1 {
+  position: relative;
+  top: 80px;
+  padding-left: 500px ;
+}
+
+.div3 {
+  color: white;
+  top:200px;
+  position: relative;
+  font-size: 30px;
+  font-family: 'AltRenRetro';
+  text-align: center;
+}
+
+.div4 {
+  text-align: center;
+  color: white;
+  top:200px;
+  position: relative;
+  font-family: 'Gravity-Book';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+  
+  * {
+    box-sizing: border-box;
+    /* margin:0;
+    padding: 0; */
+  }
+  li, a {
+    font-weight: 500;
+    font-size: 7px;
+    color: white;
+    text-decoration: none;
+    font-family: 'AltRenRetro';
+    position: relative;
+  }
+  .header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 5%;
+  }
+  .logo {
+    cursor: pointer;
+    height: 22px;
+    top: 22px;
+    position: relative;
+    padding-left: 0px;
+    width: 90px;
+  }
+  /* .nav__links {
+    list-style: none;
+  } */
+  
+ ul {
+  margin-right: 0px;
+  font-size: 10px;
+ }
+  
+  .div1 {
+    top:100px;
+    position: relative;
+    /* padding-left:15px; */
+    color: white;
+    font-size: larger;
+  }
+  
+  .div3 {
+    color: white;
+    top:120px;
+    position: relative;
+    font-size: 30px;
+    font-family: 'AltRenRetro';
+    text-align: center;
+  }
+  
+  .div4 {
+    text-align: center;
+    color: white;
+    top:200px;
+    position: relative;
+    font-family: 'Gravity-Book';
+  }
+  
+  .img1{
+    height:50px;
+    width:300px;
+    top:100px;
+    position: relative;
+    left:20px;
+  }
+}
